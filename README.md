@@ -1,12 +1,5 @@
 ## File Structure
 
-azure-resource-group/
-├── main.tf
-├── variables.tf.json
-├── outputs.tf.json
-├── versions.tf
-└── README.md
-
 This module uses a mix of HCL (.tf) and JSON (.tf.json) files:
 
 - `main.tf`: Contains the main resource configuration in HCL format.
