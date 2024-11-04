@@ -6,7 +6,7 @@ This Terraform module creates an Azure Resource Group.
 
 ```hcl
 module "resource_group" {
-  source              = "github.com/your-username/azure-resource-group"
+  source              = "github.com/mariuszRep/azure-resource-group"
   resource_group_name = "my-resource-group"
   location            = "eastus"
   tags = {
